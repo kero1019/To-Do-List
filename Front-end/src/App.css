@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --purple:"#6C63FF";
+}
+.container{
+  width: 90%;
+  margin:auto;
+  
+}
+.header{
+  text-transform: uppercase;
+  text-align: center;
+}
+.title-notes-container{
+  background-color: #EEE;
+}
+.notes-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.note-title-icon{
+  display: flex; 
+  align-items: center;
+  gap:1rem;
+}
+.note-title{
+  font-weight:bold;
+  font-size: 1.5rem;
+}
+.main-title{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.note{
+  background-color:#CCC
+
+}
+.check-icon{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.big-div{
+  display: flex;
+  justify-content: space-between;
+}
+.two-buttons{
+  display: flex; 
+  gap: 1rem;
+  padding: 10px;
+}
+.two-buttons button{
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+}
+.two-buttons :first-child{
+  background-color: black;
+}
+.two-buttons .update{
+  background-color: red;
+  color: white;
+}
+.plus-icon{
+  font-size: 3rem;
+  color: purple ;
+  cursor: pointer;
+}
+.note-body{
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+.p-icon{
+  display: flex;
+  justify-content: flex-end;
+}
+textarea{
+  min-height: 10rem;
+  min-width: 30rem;
+}
